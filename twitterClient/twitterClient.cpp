@@ -10,7 +10,7 @@ int main( int argc, char* argv[] )
     /* Get username and password from command line args */
     std::string userName( "" );
     std::string passWord( "" );
-    if( argc > 4 )
+    /*if( argc > 4 )
     {
         for( int i = 1; i < argc; i += 2 )
         {
@@ -33,7 +33,7 @@ int main( int argc, char* argv[] )
     {
         printUsage();
         return 0;
-    }
+    }*/
 
     twitCurl twitterObj;
     std::string tmpStr, tmpStr2;
